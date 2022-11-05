@@ -1,5 +1,6 @@
 export const buildQuery = () => {
-    const queryObject = { query: `{
+  const queryObject = {
+    query: `{
       transactions(first: 100,
         tags: [
           {
@@ -32,13 +33,14 @@ export const buildQuery = () => {
           }
         }
       }
-    }`}
-    return queryObject;
-   }
+    }`,
+  };
+  return queryObject;
+};
 
-   import { ApolloClient, InMemoryCache } from "@apollo/client";
+import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-    uri: "https://countries.trevorblades.com",
-    cache: new InMemoryCache(),
+  uri: "https://countries.trevorblades.com",
+  cache: new InMemoryCache(),
 });

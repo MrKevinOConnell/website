@@ -5,22 +5,21 @@
 .markdown p,
 .markdown ul,
 .markdown ol,
-.markdown blockquote{
+.markdown blockquote {
   @apply my-2;
 }
-
 
 .markdown img + em {
   color: gray;
   margin-left: 25px;
-  font-size: 18px
- }
+  font-size: 18px;
+}
 
 .markdown img {
   width: 400px;
 }
 .markdown a {
-  color: blue
+  color: blue;
 }
 
 .markdown h2 {
