@@ -1,3 +1,5 @@
+import { ApolloClient, InMemoryCache } from '@apollo/client'
+
 export const buildQuery = () => {
   const queryObject = {
     query: `{
@@ -33,14 +35,12 @@ export const buildQuery = () => {
           }
         }
       }
-    }`,
-  };
-  return queryObject;
-};
-
-import { ApolloClient, InMemoryCache } from "@apollo/client";
+    }`
+  }
+  return queryObject
+}
 
 const client = new ApolloClient({
-  uri: "https://countries.trevorblades.com",
-  cache: new InMemoryCache(),
-});
+  uri: 'https://countries.trevorblades.com',
+  cache: new InMemoryCache()
+})

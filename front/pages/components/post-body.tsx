@@ -5,22 +5,22 @@ import {
   Divider,
   Group,
   Stack,
-  Text,
-} from "@mantine/core";
-import { format, parseISO } from "date-fns";
-import markdownStyles from "./markdown-styles.module.css";
+  Text
+} from '@mantine/core'
+import { format, parseISO } from 'date-fns'
+import markdownStyles from './markdown-styles.module.css'
 
-type Props = {
-  content: string;
-  image: string;
-  title: string;
-  time: number;
-  description: string;
-  date: string;
-};
+interface Props {
+  content: string
+  image: string
+  title: string
+  time: number
+  description: string
+  date: string
+}
 
 const PostBody = ({ content, title, time, description, date }: Props) => {
-  const finishDate = parseISO(date);
+  const finishDate = parseISO(date)
   return (
     <Stack justify="center">
       <Center>
@@ -32,28 +32,28 @@ const PostBody = ({ content, title, time, description, date }: Props) => {
       </Center>
       <Center>
         <Group>
-          {" "}
+          {' '}
           <Text size="sm">{description}</Text>
         </Group>
       </Center>
       <Center>
         <Group>
           <Text size="xs">
-            {format(finishDate, "MM/dd/yyyy") + "• ~" + time + " min read."}
+            {format(finishDate, 'MM/dd/yyyy') + '• ~' + time + ' min read.'}
           </Text>
         </Group>
       </Center>
 
       <Center>
-        <Card style={{ width: "60%" }} radius={25}>
+        <Card style={{ width: '60%' }} radius={25}>
           <div
-            className={markdownStyles["markdown"]}
+            className={markdownStyles.markdown}
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </Card>
       </Center>
     </Stack>
-  );
-};
+  )
+}
 
-export default PostBody;
+export default PostBody

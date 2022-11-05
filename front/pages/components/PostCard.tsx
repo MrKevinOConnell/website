@@ -6,18 +6,18 @@ import {
   Button,
   Group,
   Center,
-  Divider,
-} from "@mantine/core";
-import { format, parseISO } from "date-fns";
-import Link from "next/link";
-import { Blog } from "../blogs";
+  Divider
+} from '@mantine/core'
+import { format, parseISO } from 'date-fns'
+import Link from 'next/link'
+import { Blog } from '../blogs'
 
-function PostCard(props: { blog: Blog }) {
-  console.log("props data", props.blog.date);
-  const date = parseISO(props.blog.date);
+function PostCard (props: { blog: Blog }) {
+  console.log('props data', props.blog.date)
+  const date = parseISO(props.blog.date)
   return (
     <Card
-      style={{ width: "50%" }}
+      style={{ width: '50%' }}
       component="a"
       href={`/blogs/${props.blog.slug}`}
       shadow="sm"
@@ -39,10 +39,10 @@ function PostCard(props: { blog: Blog }) {
       <Center>
         <Group>
           <Text size="xs">
-            {format(date, "MM/dd/yyyy") +
-              " • ~" +
+            {format(date, 'MM/dd/yyyy') +
+              ' • ~' +
               props.blog.time +
-              " min read."}
+              ' min read.'}
           </Text>
         </Group>
       </Center>
@@ -50,13 +50,13 @@ function PostCard(props: { blog: Blog }) {
 
       <Center>
         <Group>
-          {" "}
+          {' '}
           <Text size="xs" color="dimmed">
             {props.blog.description}
           </Text>
         </Group>
       </Center>
     </Card>
-  );
+  )
 }
-export default PostCard;
+export default PostCard
