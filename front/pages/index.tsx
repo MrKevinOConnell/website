@@ -17,7 +17,7 @@ export default function Home () {
     embed.current = e
   }
   const bio = `<p>Hi, my name is Kevin. During my life I have lived in: Chicago, Milwaukee, and Naples, Florida.</p> <p> I've known how to code since a young age, and have worked at a couple of early stage startups during college.</p> <p> Around a year ago I got into the phenomenon that is web3, and I haven't looked back.</p>
-  <p> When I'm not coding, I like to play chess, run, and keep in touch with friends. I also enjoy watching <a href="https://gomarquette.com/sports/mens-basketball">Marquette Basketball</a>.</p> <p>Recently I also spent a month traveling Europe, during which I was able to visit Germany, Belgium, The Netherlands, Denmark and Sweden.</p>`
+  <p> When I'm not coding, I like to play chess, run, and keep in touch with friends. I also enjoy watching <a href="https://gomarquette.com/sports/mens-basketball">Marquette Basketball</a>.</p> <p>Recently I also spent a month traveling across Europe during which I visited Germany, Belgium, The Netherlands, Denmark and Sweden.</p>`
   return (
     <Stack mt={10} align="center" justify="space-around">
       <Head>
