@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { Blog } from '.'
+import PostBody from '../../components/post-body'
 import { getAllPosts, getPostBySlug } from '../../lib/api'
 import markdownToHtml from '../../lib/markdownToHtml'
-import PostBody from '../components/post-body'
+
 
 interface Props {
   blog: Blog
@@ -11,7 +12,6 @@ interface Props {
 
 export default function Post ({ blog }: Props) {
   const router = useRouter()
-  console.log('Blog', blog)
   if (!router.isFallback && !blog?.slug) {
     return <p>This blog doesn't exist!</p>
   }
