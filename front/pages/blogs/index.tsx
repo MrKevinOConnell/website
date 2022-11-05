@@ -22,11 +22,10 @@ interface Props {
 }
 
 export default function blogs ({ blogs }: Props) {
-  console.log('BLOGS', blogs)
   return (
     <Stack align="center">
       {blogs &&
-        blogs.map((blog,index) => {
+        blogs.map((blog) => {
           return <PostCard key={blog.slug} blog={blog} />
         })}
     </Stack>
