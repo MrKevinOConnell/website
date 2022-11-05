@@ -17,5 +17,8 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "react/jsx-filename-extension": ["warn", { extensions: [".tsx"] }],
+    "react/react-in-jsx-scope": "off",
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/restrict-template-expressions': 'off'
   },
 };
