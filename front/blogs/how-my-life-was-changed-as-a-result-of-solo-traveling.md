@@ -53,7 +53,7 @@ Now that I'm back in the US it's been tough just hearing people complaining abou
 
 This is a huge issue I used to have. I used to get very anxious if a certain event didn't occur the way I wanted to. Over time, this became non-existent, but when I was traveling there were a lot of situations that would have caused me to freak out.
 
-One example of this is when security at the airport in Brussels got canceled, which led me to miss my flight to Stockholm (RIP). Old me would have just freaked out and not done anything, but I ended up figuring out a way to get to Amsterdam; as a result, I ended up seeing [Alan Walker](https://open.spotify.com/artist/7vk5e3vY1uw9plTHJAMwjN?si=0ocllsUoQI2eX3mgZNfjow) and [Diplo](https://open.spotify.com/artist/5fMUXHkw8R8eOP2RNVYEZX?si=cQqPLtSYQb296djpuXI_Nw). I also met a ton of cool people while there who I still talk to today.
+One example of this is when security at the airport in Brussels got canceled, which led me to miss my flight to Stockholm (RIP). Old me would have just freaked out and not done anything, but I ended up figuring out a way to get to Amsterdam; as a result, I ended up seeing [Alan Walker](https://open.spotify.com/artist/7vk5e3vY1uw9plTHJAMwjN?si=0ocllsUoQI2eX3mgZNfjow) and [Diplo](https://open.spotify.com/artist/5fMUXHkw8R8eOP2RNVYEZX?si=cQqPLtSYQb296djpuXI_Nw). I also met a ton of cool people who I still talk to today.
 
 ![Denmark](/media/blog/how-my-life-was-changed-as-a-result-of-solo-traveling/denmark.jpg)_Me in Copenhagen_
 
