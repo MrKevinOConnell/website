@@ -61,12 +61,12 @@ One example of this is when security at the airport in Brussels got canceled, wh
 
 #### Conclusion
 
-Solo traveling make me realize a variety of things about myself
+Solo traveling make me realize a variety of things about myself:
 
 - I need some form of a high level plan.
   - I tended to have better days when I had an idea of what I wanted to do, but there was nothing concrete.
-- I really want to work remote.
-  - After doing this, I have no desire to work in an office. I want to have the freedom to recreate this past month in a sense, even if I am working during it.
+- I prefer working remote or hybrid.
+  - After doing this, I strongly am for remote working. I want to have the freedom to recreate this past month even if I am working during it.
 - I am a lot happier when I focus on the things that I am passionate about.
   - hopefully this leads to more success also 😄.
 
@@ -76,4 +76,4 @@ In the future I plan on using this site to give longer life updates, as well as 
 
 ---
 
-_Modified: November 4th, 2022_
+_Modified: November 5th, 2022_
