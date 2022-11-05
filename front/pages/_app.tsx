@@ -27,7 +27,6 @@ import {
   ConnectKitProvider,
   getDefaultClient
 } from 'connectkit'
-import { Profile } from './components/Profile'
 export default function App ({ Component, pageProps }: AppProps) {
   const [opened, setOpened] = useState(false)
   const alchemyId = process.env.ALCHEMY_ID
