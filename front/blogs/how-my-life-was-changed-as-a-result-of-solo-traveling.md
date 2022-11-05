@@ -67,8 +67,7 @@ Solo traveling make me realize a variety of things about myself:
   - I tended to have better days when I had an idea of what I wanted to do, but there was nothing concrete.
 - I prefer working remote or hybrid.
   - After doing this, I strongly am for remote working. I want to have the freedom to recreate this past month even if I am working during it.
-- I am a lot happier when I focus on the things that I am passionate about.
-  - hopefully this leads to more success also 😄.
+- I am a lot happier when I focus on the things that I am passionate about. I hope this leads to more success 😄.
 
 ---
 
