@@ -26,8 +26,8 @@ export default function blogs ({ blogs }: Props) {
   return (
     <Stack align="center">
       {blogs &&
-        blogs.map((blog) => {
-          return <PostCard blog={blog} />
+        blogs.map((blog,index) => {
+          return <PostCard key={blog.slug} blog={blog} />
         })}
     </Stack>
   )
