@@ -7,15 +7,15 @@ tags: ["solo traveling", traveling]
 image: "/media/blog/how-my-life-was-changed-as-a-result-of-solo-traveling/me.jpg"
 ---
 
-I just came back from solo traveling around part of Europe, specifically Germany, Belgium, The Netherlands, Denmark and Sweden. On my flight back, I reflected on my life experiences so far and tried to see what I could take away from it. Here is what I came up with.
+I just came back from solo traveling around parts of Europe; specifically Germany, Belgium, The Netherlands, Denmark and Sweden. On my flight back, I reflected on my life experiences so far and tried to see what I could take away from it. Here is what I came up with.
 
 ### Context
 
-Growing up, I was a very introverted person. Around the age of 12 I found out I have moderate to moderate severe hearing loss. This means that without hearing aids it's very hard to hear what others are saying. The problem was that I was **very** self conscious about wearing them, and as a result spent most of my time with them off. As a result, my social life and happiness suffered tremendously.
+Growing up, I was a very introverted person. Around the age of 12, I found out I have moderate to severe hearing loss. This means that without hearing aids it's very hard to hear what others are saying. The problem was that I was **very** self conscious about wearing them. As a result, my social life and happiness suffered tremendously.
 
-Long story short, in an effort to change things I moved with my father across the country. This gave me a chance to shed the image I had of myself. I started applying myself more in the things I loved. I also actively started trying to make more friends. One **_small_** problem with this was that I had zero social skills whatsoever because I couldn't hear people in the past. I was literally that cringy dude on social media😂. Despite this, over time I got better and found a great group of friends during college. I also tried out a lot of new things, which became a inspiration for this trip.
+Long story short, in an effort to change things, I moved with my father across the country. This gave me a chance to change the image I had of myself. I started applying myself more in the things I love. I also tried to make more friends. One small problem with this was that I had zero social skills because I couldn't hear people in the past because I couldn't hear people. I was literally that cringy dude on social media. Despite this, I got better and found a great group of friends during college. I also tried out a lot of new things, which became a inspiration for this trip.
 
-Recently, I graduated early with a Bachelor's in Computer Science from [Marquette University](https://www.marquette.edu/) and have been job searching. During my search I realized I was very burnt out, to the point where I actively disliked coding (which has been one of my passions for a while). One day, I was looking at the projects I have been involved in up to this point, and realized that I had a lot of connections in Europe. Knowing this, I had some money saved up and decided to figure out a way I could visit all of these people that I now call friends.
+Recently, I graduated early with a Bachelor's in Computer Science from [Marquette University](https://www.marquette.edu/) and begun my job search. During my search, I realized I was very burnt out to the point where I disliked coding. One day, I was looking at the projects I have worked on, and realized that I have a lot of connections in Europe. Knowing this, I had some money saved up and decided to figure out a way I could visit them all.
 
 ---
 
