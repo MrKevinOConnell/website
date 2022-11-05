@@ -5,7 +5,6 @@ import PostBody from '../../components/post-body'
 import { getAllPosts, getPostBySlug } from '../../lib/api'
 import markdownToHtml from '../../lib/markdownToHtml'
 
-
 interface Props {
   blog: Blog
 }

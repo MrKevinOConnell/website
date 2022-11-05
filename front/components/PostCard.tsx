@@ -12,7 +12,6 @@ import { format, parseISO } from 'date-fns'
 import Link from 'next/link'
 import { Blog } from '../pages/blogs'
 
-
 function PostCard (props: { blog: Blog }) {
   console.log('props data', props.blog.date)
   const date = parseISO(props.blog.date)
