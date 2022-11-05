@@ -2,9 +2,9 @@ import { Stack } from '@mantine/core'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import readingTime from 'reading-time'
+import PostCard from '../../components/PostCard'
 import { getAllPosts, getPostBySlug } from '../../lib/api'
 import markdownToHtml from '../../lib/markdownToHtml'
-import PostCard from '../components/PostCard'
 export interface Blog {
   slug: string
   title: string
