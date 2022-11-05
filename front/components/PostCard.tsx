@@ -10,7 +10,8 @@ import {
 } from '@mantine/core'
 import { format, parseISO } from 'date-fns'
 import Link from 'next/link'
-import { Blog } from '../blogs'
+import { Blog } from '../pages/blogs'
+
 
 function PostCard (props: { blog: Blog }) {
   console.log('props data', props.blog.date)
