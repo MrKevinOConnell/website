@@ -40,7 +40,7 @@ export default function Home () {
           </TypographyStylesProvider>
         </Text>{' '}
       </Grid>
-<Text size="md" weight={700} mt={5}>Posts:</Text>
+<Text size="md" weight={700} mt={5}>Blogs:</Text>
       <Link  style={{color: "blue", fontSize: "14px"}} href="/blogs/how-my-life-was-changed-as-a-result-of-solo-traveling">How my life was changed as a result of solo traveling.</Link>
     </Stack>
   )
