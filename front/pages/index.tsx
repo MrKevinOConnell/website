@@ -10,6 +10,7 @@ import {
   Text,
   TypographyStylesProvider
 } from '@mantine/core'
+import Script from 'next/script'
 import Link from 'next/link'
 export default function Home () {
   const embed = useRef() // We use a ref instead of state to avoid rerenders.
@@ -31,6 +32,18 @@ export default function Home () {
         <title>Kevin O'Connell</title>
         <meta name="Kevin O'Connell" content="Follow my life" />
       </Head>
+      <Script
+       src="https://www.googletagmanager.com/gtag/js?id=G-71XMY7XKR4"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-71XMY7XKR4');
+        `}
+      </Script>
       <Text size="md" weight={700} mt={5}>About me:</Text>
       <Grid ml={5} >
         <Text align="center" size="md">
