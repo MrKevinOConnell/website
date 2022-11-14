@@ -1,6 +1,6 @@
 ---
 title: "How my life was changed as a result of solo traveling."
-date: "2022-11-05"
+date: "2022-11-14"
 description: "How traveling around Europe changed my mindset about life."
 keywords: "solo travel, solo traveling, travel,traveling"
 tags: ["solo traveling", traveling]
