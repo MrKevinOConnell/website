@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { Blog } from '.'
 import PostBody from '../../components/post-body'
-import { getAllPosts, getPostBySlug } from '../../lib/api'
+import { getAllBlogs, getBlogBySlug } from '../../lib/api'
 import markdownToHtml from '../../lib/markdownToHtml'
 
 interface Props {
@@ -33,7 +33,7 @@ interface Params {
 }
 
 export async function getStaticProps ({ params }: Params) {
-  const blog = getPostBySlug(params.slug, [
+  const blog = getBlogBySlug(params.slug, [
     'title',
     'date',
     'slug',
@@ -58,7 +58,7 @@ export async function getStaticProps ({ params }: Params) {
 }
 
 export async function getStaticPaths () {
-  const posts = getAllPosts(['slug'])
+  const posts = getAllBlogs(['slug'])
 
   return {
     paths: posts.map((post) => {

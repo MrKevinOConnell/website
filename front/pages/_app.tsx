@@ -71,11 +71,10 @@ export default function App ({ Component, pageProps }: AppProps) {
                           </Text>{' '}
                         </Link>
                       </Grid.Col>
-                      <Grid.Col mt={5} offset={3} span={5}>
+                      <Grid.Col mt={5} offset={3.25} span={5}>
                         {' '}
-                        <Link href="/blogs" passHref legacyBehavior>
+                        <Link  href="/blogs" passHref legacyBehavior>
                           <Button
-                            mr={10}
                             size="sm"
                             variant="gradient"
                             gradient={{ from: 'red', to: 'yellow', deg: 120 }}
@@ -85,6 +84,7 @@ export default function App ({ Component, pageProps }: AppProps) {
                         </Link>
                         <Link href="/projects" passHref legacyBehavior>
                           <Button
+                          ml={30}
                             size="sm"
                             variant="gradient"
                             gradient={{ from: 'red', to: 'yellow', deg: 120 }}

@@ -3,8 +3,8 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import readingTime from 'reading-time'
 import PostCard from '../../components/PostCard'
-import { getAllPosts, getPostBySlug } from '../../lib/api'
-import markdownToHtml from '../../lib/markdownToHtml'
+import { getAllBlogs } from '../../lib/api'
+
 export interface Blog {
   slug: string
   title: string
@@ -39,7 +39,7 @@ interface Params {
 }
 
 export const getStaticProps = async () => {
-  const blogs = await getAllPosts([
+  const blogs = await getAllBlogs([
     'title',
     'date',
     'slug',
