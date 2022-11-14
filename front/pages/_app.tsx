@@ -73,7 +73,7 @@ export default function App ({ Component, pageProps }: AppProps) {
                       </Grid.Col>
                       <Grid.Col mt={5} offset={3.25} span={5}>
                         {' '}
-                        <Link  href="/blogs" passHref legacyBehavior>
+                        <Link href="/blogs" passHref legacyBehavior>
                           <Button
                             size="sm"
                             variant="gradient"
