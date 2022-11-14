@@ -71,7 +71,7 @@ export default function App ({ Component, pageProps }: AppProps) {
                           </Text>{' '}
                         </Link>
                       </Grid.Col>
-                      <Grid.Col mt={5} offset={3.25} span={5}>
+                      <Grid.Col mt={5} offset={3.1} span={5}>
                         {' '}
                         <Link href="/blogs" passHref legacyBehavior>
                           <Button
