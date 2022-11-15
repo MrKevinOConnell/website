@@ -1,6 +1,6 @@
 ---
 title: "How my life was changed as a result of solo traveling."
-date: "2022-11-14"
+date: "2022-11-15"
 description: "How traveling around Europe changed my mindset about life."
 keywords: "solo travel, solo traveling, travel,traveling"
 tags: ["solo traveling", traveling]
@@ -66,7 +66,7 @@ Solo traveling make me realize a variety of things about myself:
 - I need some form of a high level plan.
   - I tended to have better days when I had an idea of what I wanted to do, but there was nothing concrete.
 - I prefer working remote or hybrid.
-  - After doing this, I strongly am for remote working. I want to have the freedom to recreate this past month even if I am working during it.
+  - I want to have the freedom to recreate this past month even if I am working during it.
 - I am a lot happier when I focus on the things that I am passionate about. I hope this leads to more success 😄.
 
 ---
@@ -75,4 +75,4 @@ In the future I plan on using this site to give longer life updates, as well as 
 
 ---
 
-_Modified: November 14th, 2022_
+_Modified: November 15th, 2022_
