@@ -1,6 +1,6 @@
 ---
 title: "How my life was changed as a result of solo traveling."
-date: "2022-11-22"
+date: "2022-11-26"
 description: "How traveling around Europe changed my mindset about life."
 keywords: "solo travel, solo traveling, travel,traveling"
 tags: ["solo traveling", traveling]
@@ -23,21 +23,7 @@ Recently, I graduated early with a Bachelor's in Computer Science from [Marquett
 
 ##### My General Mindset
 
-Going into this trip I would say that the general mindset of my life revolved around success. How will doing x change my outcome towards y? If this concept is put into code it would look something like:
-
-```ts
-//big number :)
-const goal = Number.MAX_VALUE;
-//smallish number
-let progress: number = 68;
-const change = (x: number) => {
-  progress = progress + x;
-};
-//change(1)
-change(Math.Random() * Number.MAX_VALUE);
-```
-
-While in some instances this mindset is okay, it has many relationships and hobbies being hindered. It also has led me to avoid enjoying the little things in life.
+Going into this trip I would say that the general mindset of my life revolved around success. How will doing x change my outcome towards y? While in some instances this mindset is okay, it has many relationships and hobbies being hindered. It also has led me to avoid enjoying the little things in life.
 
 ![Brussels](/media/blog/how-my-life-was-changed-as-a-result-of-solo-traveling/me.jpg)_Me in Brussels_
 
@@ -75,4 +61,4 @@ In the future I plan on using this site to give longer life updates, as well as 
 
 ---
 
-_Modified: November 22nd, 2022_
+_Modified: November 26th, 2022_
