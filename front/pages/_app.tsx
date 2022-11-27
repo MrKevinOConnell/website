@@ -13,7 +13,10 @@ import {
   Grid,
   Button,
   Menu
-  , MantineProvider
+  , MantineProvider,
+  MediaQuery,
+  Burger,
+  Stack
 } from '@mantine/core'
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client'
 import type { AppProps } from 'next/app'
@@ -30,6 +33,7 @@ import {
 import EmailListPopup from '../components/EmailListPopup'
 export default function App ({ Component, pageProps }: AppProps) {
   const [opened, setOpened] = useState(false)
+  const [burger,setBurger] = useState(false)
   const alchemyId = process.env.ALCHEMY_ID
   const client = createClient(
     getDefaultClient({
@@ -50,11 +54,51 @@ export default function App ({ Component, pageProps }: AppProps) {
         <ConnectKitProvider>
           <MantineProvider withGlobalStyles withNormalizeCSS>
             <AppShell
+             navbar={
+              <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
+              <Navbar p="sm" hiddenBreakpoint="sm" hidden={!burger}  width={{ sm: 200, md: 0, lg: 0 }}>
+                <Stack>
+              <Link href="/blogs" passHref legacyBehavior>
+                        <Button
+                          onClick={() => setBurger(false)}
+                          size="sm"
+                          variant="gradient"
+                          gradient={{ from: 'red', to: 'yellow', deg: 120 }}
+                        >
+                          Blogs
+                        </Button>
+                      </Link>
+                      <Link href="/projects" passHref legacyBehavior>
+                        <Button
+                       onClick={() => setBurger(false)}
+                          size="sm"
+                          variant="gradient"
+                          gradient={{ from: 'red', to: 'yellow', deg: 120 }}
+                        >
+                          Projects
+                        </Button>
+                      </Link>
+                      </Stack>
+              </Navbar>
+            </MediaQuery>
+            }
+           
               header={
                 <Header height={50} p="m">
                   {
                     <Grid ml={10}>
                       {' '}
+                      <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
+                      <Grid.Col  mt={6} span={1}>
+              <Burger
+                opened={burger}
+                onClick={() => setBurger((o) => !o)}
+                size="sm"
+                mr="xl"
+              />
+            
+            </Grid.Col>
+            </MediaQuery>
                       <Grid.Col span={2}>
                         <Link href="/">
                           <Text
@@ -72,6 +116,7 @@ export default function App ({ Component, pageProps }: AppProps) {
                           </Text>{' '}
                         </Link>
                       </Grid.Col>
+                      <MediaQuery smallerThan="sm" styles={{ display: 'none' }}>
                       <Grid.Col mt={5} offset={3.1} span={5}>
                         {' '}
                         <Link href="/blogs" passHref legacyBehavior>
@@ -94,6 +139,7 @@ export default function App ({ Component, pageProps }: AppProps) {
                           </Button>
                         </Link>
                       </Grid.Col>
+                      </MediaQuery>
                     </Grid>
                   }
                 </Header>
