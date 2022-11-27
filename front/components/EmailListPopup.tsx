@@ -84,7 +84,9 @@ function EmailListPopup() {
      window.addEventListener('resize', () => setWindow({width: window.innerWidth, height: window.innerHeight}))
    }, [])
     return (
-<Dialog withCloseButton p="md"  style={{background: "#ccccc0",marginTop: "20px"}} transitionDuration={1000} opened={open}>
+<Dialog withCloseButton p="md" onClose={() => {
+  setOpen(false)
+}}  style={{background: "#ccccc0",marginTop: "20px"}} transitionDuration={1000} opened={open}>
     
         <Stack>
         
