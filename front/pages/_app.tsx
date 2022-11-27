@@ -27,6 +27,7 @@ import {
   ConnectKitProvider,
   getDefaultClient
 } from 'connectkit'
+import EmailListPopup from '../components/EmailListPopup'
 export default function App ({ Component, pageProps }: AppProps) {
   const [opened, setOpened] = useState(false)
   const alchemyId = process.env.ALCHEMY_ID
@@ -143,6 +144,9 @@ export default function App ({ Component, pageProps }: AppProps) {
               })}
             >
               <Component {...pageProps} />
+              <Center>
+              <EmailListPopup />
+              </Center>
             </AppShell>
           </MantineProvider>
         </ConnectKitProvider>

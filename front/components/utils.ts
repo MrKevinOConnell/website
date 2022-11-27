@@ -5,6 +5,15 @@ export const isWellFormattedAddress = (input: string) => {
   return re.test(input)
 }
 
+export function ValidEmail(mail: string) 
+{
+  return String(mail)
+    .toLowerCase()
+    .match(
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    );
+}
+
 export const createPostInfo = (node: {
   owner: { address: any }
   block: { height: any, timestamp: string }
