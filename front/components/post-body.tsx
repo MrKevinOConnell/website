@@ -45,7 +45,7 @@ const PostBody = ({ content, title, time, description, date }: Props) => {
       </Center>
 
       <Center>
-        <Card style={{ width: '70%' }} radius={25}>
+        <Card style={{ width: '75%' }} radius={25}>
           <div
             className={markdownStyles.markdown}
             dangerouslySetInnerHTML={{ __html: content }}
