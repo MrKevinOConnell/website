@@ -18,6 +18,11 @@
 .markdown img {
   width: 400px;
 }
+@media screen and (max-width: 600px) {
+  .markdown img {
+   width: 200px;
+  }
+}
 .markdown a {
   color: blue;
 }
