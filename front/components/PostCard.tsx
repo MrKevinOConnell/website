@@ -26,7 +26,7 @@ function PostCard (props: { blog: Blog }) {
       withBorder
     >
       <Card.Section>
-        <Image src={props.blog.image} height={160} alt="story image" />
+        <Image src={props.blog.image} height={250} alt="story image" />
       </Card.Section>
       <Center>
         <Group ml={40} mt="sm">
